@@ -1,4 +1,4 @@
-# Game-of-Life-Simulator
+# Game-of-Life Simulator
 
 ## Overview
 This MATLAB project replicates Conway’s Game of Life. It encompasses the creation of a Graphical User Interface (GUI) for easy simulation of the cellular automaton. The GUI allows for the importation of RLE files, creation of random matrices (Soup), and offers various functionalities to control the simulation of the Game of Life.
