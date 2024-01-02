@@ -34,7 +34,7 @@ cd Game-of-Life-Simulator
 ```
 
 ## Usage & Examples
-To operate the GUI, run `yourlastname_problem3.m`. The GUI window will provide all the necessary controls for importing RLEs, creating Soups, controlling the simulation, and exporting results.
+To operate the GUI, run `program_guiprob.m`. The GUI window will provide all the necessary controls for importing RLEs, creating Soups, controlling the simulation, and exporting results.
 
 ### Inputs
 - Use the provided buttons to import RLEs or create a Soup.
