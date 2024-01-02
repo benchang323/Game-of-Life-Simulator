@@ -30,7 +30,7 @@ This MATLAB project replicates Conway’s Game of Life. It encompasses the creat
 Clone the repository to your local machine:
 ```
 git clone https://github.com/benchang323/Game-of-Life-Simulator
-cd your-repo-name
+cd Game-of-Life-Simulator
 ```
 
 ## Usage & Examples
