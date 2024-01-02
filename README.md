@@ -1,9 +1,21 @@
 # Game-of-Life-Simulator
 
 ## Overview
-This project comprises a set of MATLAB scripts related to cellular automata simulations, focusing on the Game of Life and other related functionalities. It includes a Game of Life simulator, a GUI problem solver, and a Run-Length Encoding (RLE) decoder.
+This MATLAB project replicates Conway’s Game of Life. It encompasses the creation of a Graphical User Interface (GUI) for easy simulation of the cellular automaton. The GUI allows for the importation of RLE files, creation of random matrices (Soup), and offers various functionalities to control the simulation of the Game of Life.
 
 ## Features
+- Import RLE files and create random matrices (Soup).
+- Load and clear simulations.
+- Step through generations of the simulation.
+- Play simulation at a specified frame rate.
+- Define the number of generations to run.
+- Export frames and movies of the simulation.
+- Ability to export RLE at any given frame.
+- Move backward in a simulation.
+- Change boundary conditions.
+- Dynamic resizing of the simulation grid.
+
+## Files
 - `GOL.m`: Implements the Game of Life, a classic cellular automaton.
 - `program_guiprob.m`: Provides a graphical user interface for solving problems or visualizing patterns.
 - `RLE_decoder.m`: Decodes RLE encoded patterns for cellular automata simulations.
@@ -20,3 +32,15 @@ Clone the repository to your local machine:
 git clone https://github.com/benchang323/Game-of-Life-Simulator
 cd your-repo-name
 ```
+
+## Usage & Examples
+To operate the GUI, run `yourlastname_problem3.m`. The GUI window will provide all the necessary controls for importing RLEs, creating Soups, controlling the simulation, and exporting results.
+
+### Inputs
+- Use the provided buttons to import RLEs or create a Soup.
+
+### Running
+- Control the simulation using the GUI buttons and menus to step through generations or play the simulation.
+
+### Exporting
+- Frames and movies can be exported using the GUI controls, providing a name for the files when prompted.
